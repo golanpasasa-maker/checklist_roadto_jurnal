@@ -8,17 +8,17 @@ const CHECKLIST_DATA = [
   {
     title: "Format dan Tampilan",
     items: [
-      { text: "Keterangan/judul tabel sudah dibuat rata tengah (center)", done: true },
-      { text: "Seluruh tabel dalam skripsi sudah posisi tengah (center)", done: true },
-      { text: "Format tabel sudah konsisten", done: true },
+      { text: "Keterangan/judul tabel sudah dibuat rata tengah (center)", done: false },
+      { text: "Seluruh tabel dalam skripsi sudah posisi tengah (center)", done: false },
+      { text: "Format tabel sudah konsisten", done: false },
     ]
   },
   {
     title: "Deskripsi Dataset",
     items: [
-      { text: "Sudah menambahkan penjelasan deskripsi dataset", done: true },
-      { text: "Sudah menampilkan contoh data pada Bab IV", done: true },
-      { text: "Sudah membuat tabel deskripsi variabel dataset", done: true },
+      { text: "Sudah menambahkan penjelasan deskripsi dataset", done: false },
+      { text: "Sudah menampilkan contoh data pada Bab IV", done: false },
+      { text: "Sudah membuat tabel deskripsi variabel dataset", done: false },
     ]
   },
   {
@@ -40,7 +40,7 @@ const CHECKLIST_DATA = [
   {
     title: "Data yang Diolah pada BAB IV",
     items: [
-      { text: "Menampilkan contoh dataset pada Bab IV", done: true },
+      { text: "Menampilkan contoh dataset pada Bab IV", done: false },
       { text: "Menjelaskan proses pengolahan data sebelum pelatihan model", done: false },
     ]
   },
