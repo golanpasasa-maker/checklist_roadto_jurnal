@@ -52,10 +52,10 @@ document.getElementById('resetBtn').addEventListener('click', () => {
   );
   if (!konfirmasi) return;
 
-  /* Reset state ke nilai default dari data.js */
-  CHECKLIST_DATA.forEach((cat, ci) => {
-    cat.items.forEach((item, ii) => {
-      state[ci].items[ii].done = item.done;
+  /* Reset semua item menjadi false (tidak tercentang) */
+  state.forEach(cat => {
+    cat.items.forEach(item => {
+      item.done = false;
     });
   });
 
